@@ -31,3 +31,8 @@ Step 4: Expand Common HTTP Features and make sure everything is checked and hit 
 > ![chrome_MLghEnRuIP](https://github.com/EMoniSmall/osInstall/assets/166156618/d14dd8da-fffd-40c5-b013-0d2de021578a)
 
 
+<h2>Installation Files</h2>
+
+Step 1: If you haven't already, visit [this google drive for the osTicket Installation Files](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) and download the files. 
+
+Step 2: 
