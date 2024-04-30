@@ -38,3 +38,5 @@ Step 1: If you haven't already, visit [this google drive for the osTicket Instal
 Step 2: From your downloaded files, install the PHP Manager for IIS (<b>PHPManagerForIIS_V1.5.0</b>).
 
 Step 3: Next, install the Rewrite Module (<b>rewrite_amd64_en-US</b>)
+
+Step 4: Once the Rewrite Module is installed, you'll need to create a directory on the local hard drive for PHP. (C:\PHP) Open up a file explorer> This PC > Windows (C:) > right-click create a new folder named "PHP."
