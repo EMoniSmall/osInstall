@@ -35,4 +35,6 @@ Step 4: Expand Common HTTP Features and make sure everything is checked and hit 
 
 Step 1: If you haven't already, visit [this google drive for the osTicket Installation Files](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) and download the files. 
 
-Step 2: 
+Step 2: From your downloaded files, install the PHP Manager for IIS (<b>PHPManagerForIIS_V1.5.0</b>).
+
+Step 3: Next, install the Rewrite Module (<b>rewrite_amd64_en-US</b>)
