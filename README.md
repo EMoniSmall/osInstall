@@ -26,3 +26,8 @@ Step 4: Expand Common HTTP Features and make sure everything is checked and hit 
 
 ![mstsc_vIwIgLO9gj](https://github.com/EMoniSmall/osInstall/assets/166156618/404d387b-3d80-48c8-8a84-9fa6f7d3e553)
 
+> [!Note]
+> To test if the connection worked, open a web browser and type in 127.0.0.1. The following page should open:
+> ![chrome_MLghEnRuIP](https://github.com/EMoniSmall/osInstall/assets/166156618/d14dd8da-fffd-40c5-b013-0d2de021578a)
+
+
