@@ -40,3 +40,30 @@ Step 2: From your downloaded files, install the PHP Manager for IIS (<b>PHPManag
 Step 3: Next, install the Rewrite Module (<b>rewrite_amd64_en-US</b>)
 
 Step 4: Once the Rewrite Module is installed, you'll need to create a directory on the local hard drive for PHP. (C:\PHP) Open up a file explorer> This PC > Windows (C:) > right-click create a new folder named "PHP."
+
+Step 5: In your download folder, look for PHP 7.3.8 <b>(php-7.3.8-nts-Win32-VC15-x86.zip)</b> and extract it into your newly created C:\PHP folder. 
+
+![mstsc_v2quU2ua5Z](https://github.com/EMoniSmall/osInstall/assets/166156618/95bdae23-4273-4418-9a66-fda2e04d1573)
+
+Step 6: Next, install VC_redistx86.exe
+
+Step 7: Install, MySQL 5.5.62 <b>(mysql-5.5.62-win32.msi)</b>. "Typical" installation. Make sure to check the box to Launch the MySQL Instance Configuration Wizard before clicking Finish. Choose Standard Configuration and enter a password that you'll remember. (Your Username will be root.)
+
+> [!Note]
+> This installs a database on the computer to store application data such as the tickets and users.
+
+![mstsc_xKZFKXwgtV](https://github.com/EMoniSmall/osInstall/assets/166156618/1c1e39c6-d210-4d1c-84b9-99b5092b5231)
+
+<h2>Configuring IIS as an Admin</h2>
+
+Step 1: Click Start and type in IIS. You'll see Internet Information Services (IIS) Manager. Right-click and runas Administrator. 
+
+> [!Note]
+> You'll notice some options that you've installed already such as URL Rewrite and PHP Manager.
+>  
+> ![mstsc_ECtFk84TYR](https://github.com/EMoniSmall/osInstall/assets/166156618/d923f6eb-7b9b-404c-8e26-f8762f4c213b)
+> ![mstsc_iVRaJoUGui](https://github.com/EMoniSmall/osInstall/assets/166156618/d2fc1bc7-4ba9-4600-986e-de1e9cbf5f81)
+
+
+
+
