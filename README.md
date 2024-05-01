@@ -72,4 +72,14 @@ Step 3: Back on the Home screen of IIS Manager, on the right side of the window,
 
 <h2>Installing osTicket</h2>
 
-Step 1: From your downloads folder, 
+Step 1: Pull up your downloads folder and open up a 2nd File Explorer. On the 2nd File Explorer, go to This PC > Windows (C:) > inetpub > wwwroot.
+
+Step 2: From your downloads folder, click into the osTicket-v1.15.8 and drag the Upload folder into wwwroot and allow the folder time to transfer. 
+
+![mstsc_SePbCmz9Lu](https://github.com/EMoniSmall/osInstall/assets/166156618/1e7e2d9e-4d8d-4466-a381-c03af501b656)
+
+Step 3: Rename "upload" to "osTicket"
+
+Step 4: In IIS Manager, stop and start the server or Restart. 
+
+![mstsc_YfZHNvJUlw](https://github.com/EMoniSmall/osInstall/assets/166156618/0b142398-ac5a-4152-b964-fc595ff4c8e0)
