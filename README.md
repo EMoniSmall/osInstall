@@ -64,6 +64,12 @@ Step 1: Click Start and type in IIS. You'll see Internet Information Services (I
 > ![mstsc_ECtFk84TYR](https://github.com/EMoniSmall/osInstall/assets/166156618/d923f6eb-7b9b-404c-8e26-f8762f4c213b)
 > ![mstsc_iVRaJoUGui](https://github.com/EMoniSmall/osInstall/assets/166156618/d2fc1bc7-4ba9-4600-986e-de1e9cbf5f81)
 
+Step 2: Double-click PHP Manager > Register new PHP version > ... > PHP > Select php-cgi and Open.
 
+![mstsc_4PfQkxkLLi](https://github.com/EMoniSmall/osInstall/assets/166156618/b3e7bb98-0ac9-4026-a0f8-153e05cbb706)
 
+Step 3: Back on the Home screen of IIS Manager, on the right side of the window, under Manage Server, Click Restart. 
 
+<h2>Installing osTicket</h2>
+
+Step 1: From your downloads folder, 
