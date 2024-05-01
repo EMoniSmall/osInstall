@@ -83,3 +83,62 @@ Step 3: Rename "upload" to "osTicket"
 Step 4: In IIS Manager, stop and start the server or Restart. 
 
 ![mstsc_YfZHNvJUlw](https://github.com/EMoniSmall/osInstall/assets/166156618/0b142398-ac5a-4152-b964-fc595ff4c8e0)
+
+Step 5: Once the server has restarted, on the left of IIS Manager, open Sites > Default Websites > osTicket. On the Right, click on Browse *:80 (http) and the website for osTicket should appear. 
+
+![mstsc_P01XhiSPgV](https://github.com/EMoniSmall/osInstall/assets/166156618/4cacf688-ae64-4a70-a240-be4dbc8abf54)
+
+> [!Note]
+> Some extensions aren't enabled as marked by the X's.
+
+Step 6: Return to IIS Manager > Sites> Default Website > osTicket > Double-Click PHP Manager > Enable or Disable an Extension.
+
+Step 7: Under the disabled list, look for php_imap.dll. Select it and click enable in the top right of the window.
+
+Step 8: Look for php_intl.dll and enable.
+
+Step 9: Look for php_opcache.dll and enable.
+
+Step 10: Return to the osTicket Website and refresh the page. You should see some of the extensions become available. 
+
+![mstsc_BVgeVbO13W](https://github.com/EMoniSmall/osInstall/assets/166156618/beef8b0a-855c-4c4b-84ce-66ca4d1b60b3)
+
+Step 11: Open up a File Explorer > This PC > Windows (C:) > inetpub > wwwroot > osticket > include > search for ost-sampleconfig.php. Rename the file to ost-config.php.
+
+Step 12: Right-click ost-config.php > Properties > Security > Advanced > Click Disable inheritance > Remove all permissions > Add > Select Principle > type in Everyone > Check name > Check Full Control > Ok.
+
+> [!Note]
+> The reason we need to disable inheritance and add new permissions is because I'm unsure which user actually interacts with this file. osTicket needs to be able to interact with the file so to make sure it works, we're giving access to everyone for now.
+
+![mstsc_OBnVpPbYuA](https://github.com/EMoniSmall/osInstall/assets/166156618/0b29c8bf-b2d0-43ac-a1de-4d07de5115ea)
+
+<h2>osTicket Settings</h2>
+
+Step 1: Return to the osTicket Website and begin entering information for your helpdesk name, email ect... Remember the information entered here as this will be used as your log in info. 
+
+Step 2: In your downloads folder, there is one more file to setup. HeidiSQL. Once it is done downloading and installing, allow it to launch. 
+
+> [!Note] HeidiSQL will allow us to connect and setup the SQL database that osTicket is going to use.
+
+Step 3: On the bottom left of the Heidi window, Click New on the bottom right. If you remember when setting up MySQL, you have a username "root" and a password you created along with it. Enter root under user if it hasn't already done so and enter the password you created. Return to the osTicket Website once done.
+
+![mstsc_PddL9DSw9q](https://github.com/EMoniSmall/osInstall/assets/166156618/ef4c4823-a030-401c-b1ec-c6f6680958cf)
+
+Step 4: Right-click Unamed > Create New > Database and name it "osticket"
+
+![mstsc_GPs0JKMpSb](https://github.com/EMoniSmall/osInstall/assets/166156618/ea131dee-c5f7-4e0e-a5bf-19f027344041)
+
+Step 5: On the osticket website, under MySQL Database, name it osTicket
+
+Step 6: You can now enter your MySQL Username and Password. Click Install. 
+
+<h2>Clean-up</h2>
+
+Step 1: Once everything has installed, in a File Explorer, go to C:\inetpub\wwwroots\osTicket\Setup and delete the Setup Folder.
+
+Step 2: Then go to C:\inetpub\wwwroot\osTicket\include and right-click os-config.php > Properties > Security > Highlight "Everyone" and click Edit. Uncheck everything except for Read & execute and Read. Apply. 
+
+![mstsc_osNycPPXSz](https://github.com/EMoniSmall/osInstall/assets/166156618/be8238e2-7fbb-45a3-9141-23292acc8bf0)
+
+
+<b>The initial setup and installation for osTicket is now complete!</b>
